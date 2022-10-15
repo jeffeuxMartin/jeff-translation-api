@@ -72,4 +72,6 @@ app.get('/translation', (req, res) =>{
 
 
 // app.listen(6069);
-app.listen(80);
+port = process.env.PORT || 80
+
+app.listen(port);
