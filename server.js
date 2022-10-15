@@ -68,4 +68,5 @@ app.get('/translation', (req, res) =>{
 });
 
 
-app.listen(6069);
+// app.listen(6069);
+app.listen(80);
