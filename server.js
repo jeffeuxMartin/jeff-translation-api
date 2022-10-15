@@ -52,6 +52,9 @@ app.use(cors({
     origin: '*',
 
 }));
+app.get('/', (req, res) => {
+    return "hello"
+})
 app.get('/translation', (req, res) =>{
     translate(req.query.source_text)
     .then(
